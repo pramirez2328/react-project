@@ -1,5 +1,6 @@
 import CampsitesList from './features/campsites/ CampsitesList';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className='App'>
       <Header />
       <CampsitesList />
+      <Footer />
     </div>
   );
 }
