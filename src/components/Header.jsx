@@ -3,10 +3,10 @@ import NucampLogo from '../app/assets/img/logo.png';
 
 const Header = () => {
   return (
-    <header >
+    <header>
       <Navbar className='navbar-dark'>
         <NavbarBrand className='navbar-brand'>
-          <img src={NucampLogo} className='App-logo' alt='logo' />
+          <img src={NucampLogo} className='App-logo ms-5' alt='logo' />
         </NavbarBrand>
       </Navbar>
     </header>

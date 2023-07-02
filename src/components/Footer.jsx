@@ -5,10 +5,10 @@ const Footer = () => {
     <footer className='site-footer'>
       <Container>
         <Row>
-          <Col xs={{ size: 4, offset: 1 }} sm='2'>
-            <h5>this will be site navigation!</h5>
+          <Col md='4'>
+            <h5 className='text-center'>this will be site navigation!</h5>
           </Col>
-          <Col xs='6' sm='4' className='text-center'>
+          <Col md='4' className='text-center'>
             <h5>Social</h5>
             <a className='btn btn-social-icon btn-instagram mx-1' href='http://instagram.com/'>
               <i className='fa fa-instagram' />
@@ -23,7 +23,7 @@ const Footer = () => {
               <i className='fa fa-youtube' />
             </a>
           </Col>
-          <Col sm='4' className='text-center'>
+          <Col md='4' className='text-center'>
             <a role='button' className='btn btn-link' href='tel:+12065551234'>
               <i className='fa fa-phone' /> 1-206-555-1234
             </a>

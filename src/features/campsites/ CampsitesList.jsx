@@ -17,3 +17,4 @@ const CampsitesList = () => {
 };
 
 export default CampsitesList;
+
