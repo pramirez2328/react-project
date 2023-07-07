@@ -4,8 +4,6 @@ import { selectFeaturedCampsite } from '../campsites/campsitesSlice';
 import { selectFeaturedPromotion } from '../promotions/promotionsSlice';
 
 const DisplayList = () => {
-  console.log(selectFeaturedCampsite);
-  console.log(selectFeaturedPromotion);
   const items = [selectFeaturedCampsite(), selectFeaturedPromotion()];
 
   return (
